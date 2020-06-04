@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_section_1_s",
+  "info": {
+    "name": "Intro",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_subtitle": {
+      "type": "text"
+    },
+    "image_link_boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-link-box"
+    }
+  }
+}

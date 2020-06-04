@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_header_sections",
+  "info": {
+    "name": "Header Section",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "bg_video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "homepage_slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sliders.homepage-slider"
+    }
+  }
+}

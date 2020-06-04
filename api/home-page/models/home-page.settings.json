@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.header-section"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.section-1"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.features"
+    },
+    "special_project": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.special-project"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sliders_homepage_sliders",
+  "info": {
+    "name": "homepage_slider",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "link_btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.standard-button"
+    }
+  }
+}

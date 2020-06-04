@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_image_link_boxes",
+  "info": {
+    "name": "Image Link Box",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_buttons_standard_buttons",
+  "info": {
+    "name": "Standard Button",
+    "icon": "mouse"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_icon_with_texts",
+  "info": {
+    "name": "Icon with text",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

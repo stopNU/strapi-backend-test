@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_homepage_special_projects",
+  "info": {
+    "name": "Special Project",
+    "icon": "pastafarianism"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "link_btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.standard-button"
+    },
+    "bg_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
