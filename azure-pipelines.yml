@@ -17,5 +17,5 @@ steps:
 
 - script: |
     yarn install
-    yarn develop
-  displayName: 'yarn install and develop'
+    yarn build
+  displayName: 'yarn install and build'
